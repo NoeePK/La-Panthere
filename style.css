@@ -7,6 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+blockquote {
+    border-left-color:#F3976C
+    }
+    
+    p,figcaption {
+    font-size:16px
+    }
+
 a,
 button {
     transition: all .3s ease-in-out;

@@ -17,6 +17,12 @@ body {
         width: 100px;
     }
     
+   .contact-title {
+    color: black!important;
+    font-size:30px;
+    font-weight:700;
+   }
+
     .img-responsive {
         max-height: 270px;
         max-width: 270px;
@@ -605,6 +611,10 @@ body {
     color:#575757!important
     }
     
+    label {
+        font-size: 20px;
+    }
+
     .container {
     max-width:1000px
     }
@@ -730,12 +740,12 @@ body {
     .tc-white {
     color:#F3976C!important;
     font-size:30px;
-    font-weight:700
+    font-weight:700;
     }
     
     .btn-atomic-tangerine {
     background:#F3976C;
-    color:#FFF!important
+    color: black!important;
     }
     
     .btn-atomic-tangerine:hover {
@@ -765,7 +775,8 @@ body {
     }
     
     .bg-dots-bg {
-    background-image:url(img/dots-bg.png)
+    background-image:url(img/dots-bg.png);
+    background-color:#f3976ccc;
     }
     
     .bg-lines-h2-bg {

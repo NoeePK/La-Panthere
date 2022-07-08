@@ -39,6 +39,10 @@ body {
     .contrast-bg h2,.contrast-bg p {
     color:#fff!important
     }
+
+    #header-logo {
+        height: 40px;
+    }
     
     a,button {
     transition:all .3s ease-in-out;

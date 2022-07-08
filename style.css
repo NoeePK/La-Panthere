@@ -1,3 +1,4 @@
+
 body {
     margin:0;
     padding:0;
@@ -39,11 +40,11 @@ body {
     .contrast-bg h2,.contrast-bg p {
     color:#fff!important
     }
-
-    #header-logo {
-        height: 40px;
-    }
     
+#header-logo {
+    height: 40px;
+}
+
     a,button {
     transition:all .3s ease-in-out;
     outline:none!important
@@ -142,10 +143,15 @@ body {
     border-color:rgba(255,255,255,.2)
     }
     
-    .d-bloc .a-btn,.d-bloc .navbar a,.d-bloc .navbar-brand,.d-bloc a .icon-sm,.d-bloc a .icon-md,.d-bloc a .icon-lg,.d-bloc a .icon-xl,.d-bloc h1 a,.d-bloc h2 a,.d-bloc h3 a,.d-bloc h4 a,.d-bloc h5 a,.d-bloc h6 a,.d-bloc p a {
+    .d-bloc .a-btn,.d-bloc .navbar a,.d-bloc .navbar-brand,.d-bloc a .icon-sm,.d-bloc a .icon-lg,.d-bloc a .icon-xl,.d-bloc h1 a,.d-bloc h2 a,.d-bloc h3 a,.d-bloc h4 a,.d-bloc h5 a,.d-bloc h6 a,.d-bloc p a {
     color:rgba(255,255,255,.6)
     }
     
+    .icon-md {
+        color: black!important;
+        font-size: 36px!important;
+    }
+
     .d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc .navbar-brand:hover,.d-bloc a:hover .icon-sm,.d-bloc a:hover .icon-md,.d-bloc a:hover .icon-lg,.d-bloc a:hover .icon-xl,.d-bloc h1 a:hover,.d-bloc h2 a:hover,.d-bloc h3 a:hover,.d-bloc h4 a:hover,.d-bloc h5 a:hover,.d-bloc h6 a:hover,.d-bloc p a:hover {
     color:rgba(255,255,255,1)
     }
@@ -262,6 +268,10 @@ body {
     display:inline
     }
     
+    .sr-only {
+        display: none!important;
+    }
+
     .navbar-brand img[src$=svg] {
     min-width:100px
     }
@@ -638,8 +648,11 @@ body {
     
     .social {
     max-width:400px;
-    margin:auto
+    margin:auto;
+    color: white!important;
     }
+
+    
     
     h2 {
     font-size:22px;
@@ -671,6 +684,12 @@ body {
     .white {
     color:#FFF!important;
     font-size:20px
+    }
+
+    .footer-white {
+        color: black!important;
+        font-size: 30px;
+        font-weight: bold;
     }
     
     .portfolio-thumb {

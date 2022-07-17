@@ -171,13 +171,14 @@ h1,h4{color:#333!important}
 #hero-bloc,.page-container{overflow-x:hidden;position:relative}
 .bloc-group,.bloc-group .bloc{display:block;width:100%}
 .bloc-fill-screen .fill-bloc-bottom-edge,.bloc-fill-screen .fill-bloc-top-edge{padding:0 20px}
+figure.text-center{padding:0 5%;box-sizing:border-box;}
+.img-responsive{margin:auto;}
+.social{display:flex;justify-content:space-around;}
+*{overflow-x: hidden;}
 }
 @media (max-width:767px){
 .page-container{overflow-x:hidden;position:relative}
 .bloc-mob-center-text{text-align:center}
-.img-responsive{margin: auto;}
-.social{display: flex;justify-content: space-around;}
-figure.text-center{padding: 0 8%;box-sizing: border-box;}
 #disqus_thread,h1,h2,h3,h4,h5,h6,p{padding-left:10px!important;padding-right:10px!important}
 .b-parallax{background-attachment:scroll}
 .navbar .nav{padding-top:0;border-top:1px solid rgba(0,0,0,.2);float:none!important}
@@ -209,9 +210,5 @@ form{padding:5px}
 .blocsapp-device-iphone5 img{width:180px;height:320px}
 .bloc-mob-center-text{text-align:center}
 }
-@media (min-width: 1800px) {
-    #bloc-1-hero {
-        max-width: 1900px!important;
-        margin: 0 auto;
-    }
+@media (min-width: 1900px){#bloc-1-hero {max-width: 1900px!important;margin: 0 auto;}
 }

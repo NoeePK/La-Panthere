@@ -1,6 +1,6 @@
 body{margin:0;padding:0;background:#fff;overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;scroll-behavior: smooth!important;}
 .end-banner-title{text-transform: uppercase;font-size:30px!important;}
-#inline_inpage_link{color: white!important;text-transform: uppercase;font-size: .7em;font-weight: normal!important;}
+#inline_inpage_link{color: black!important;text-transform: uppercase;font-size: .7em;font-weight: normal!important;}
 .underline{text-decoration: solid!important;}
 blockquote p{font-family:helvetica,sans-serif;font-size:22px}
 .image-resize-mode{width:100px;height:100px}
@@ -10,12 +10,12 @@ blockquote p{font-family:helvetica,sans-serif;font-size:22px}
 .footer-title{color: #000!important;text-align: center;min-height:40px;}
 .footer-title.big{font-size: 1.5em;}
 .footer-title.small{font-size:1.3em;margin-bottom: 5%;margin-top: 0;}
-.title-local{text-transform: uppercase;font-weight: normal!important;font-size: 20px!important;}
+.title-local{text-transform: uppercase;font-size: 20px!important;}
 .img-responsive{max-height:270px;max-width:270px;width:100%;height:100%;align-items:center}
 blockquote{border-left-color:#f3976c}
 figcaption,p{font-size:16px}
-.contrast-bg{background-color:rgba(165,147,99,.7)}
-.contrast-bg h2,.contrast-bg p{color:#fff!important}
+.contrast-bg{background-color:#C0B291}
+.contrast-bg h2,.contrast-bg p{color:black!important}
 #header-logo{height:65px;width:350px}
 a,button{transition:all .3s ease-in-out;outline:0!important}
 a:hover{text-decoration:none;cursor:pointer}
@@ -143,7 +143,7 @@ h1,h4{color:#333!important}
 .portfolio-thumb{margin-bottom:24px}
 .portfolio-row{margin-bottom:44px;margin-top:50px}
 .avatar{box-shadow:0 4px 9px rgba(0,0,0,.3)}
-.black-background{background-color:rgba(165,147,99,.7);padding:40px}
+.black-background{background-color:#c0b291d3;padding:40px}
 .bold-link{font-weight:900;text-decoration:underline!important}
 .bgc-white{background-color:#fff}
 .bgc-dark-slate-blue{background-color:#364577}

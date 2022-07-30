@@ -1,6 +1,6 @@
 # La-Panthere
 ## Projet d'amélioration du référencement du site de l'Agence web La Panthère avec 10 optimisations :
-> 1. Scripts
+>1. Scripts
  2. Poids et taille des images
  3. Textes-images
  4. Black-hat
